@@ -30,14 +30,16 @@ header, a {
 
 header img {
     display: block;
-    aspect-ratio: 1;
+    /* aspect-ratio: 1; */
     border-radius: 50%;
     object-fit: cover;
     filter: grayscale(1);
-    margin: 1rem;
+    margin: 2rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 main {
-    margin: 2rem 4rem;
+    margin: 1rem 4rem;
 }
 
 section {
